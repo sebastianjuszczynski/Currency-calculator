@@ -1,6 +1,6 @@
 # Currency converter
 ## Demo:
-![Demo](demo/demo.gif)
+![Demo](demo/demo.png)
 
 ## Live:
 https://sebastianjuszczynski.github.io/Currency-calculator/
