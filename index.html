@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut 💸</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/result.css">
+    <script defer src="js/main.js"></script>
+</head>
+
+<body class="body">
+    <h1 class="header">Kalkulator walut 💸</h1>
+    <form class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Uzupełnij dane:</legend>
+            <p>
+                <label for="amount" class="form__label">Podaj kwotę w złotówkach*:</label>
+                <input class="form__input form__input--js-amount" type="number" id="amount" name="amount" required>
+            </p>
+            <p>
+                <label for="currency" class="form__label">Waluta:</label>
+                <select class="form__input form__input--js-currency" name="currency" id="currency">
+                    <option value="GBP">Funt brytyjski</option>
+                    <option value="EUR">Euro</option>
+                    <option value="USD">Dolar amerykański</option>
+                    <option value="CHF">Frank szwajcarski</option>
+                </select>
+            </p>
+            <p>
+                <button class="form__button">Przelicz</button>
+            </p>
+        </fieldset>
+    </form>
+    <p class="result__info">Kursy walut - Tabela A kursów średnich walut obcych na podstawie notowań
+        Narodowego Banku Polskiego obowiązujące od dnia 2020-11-27</p>
+
+    <p class="result__paragraph">
+        Wpisz kwotę w PLN-ach a następnie kliknij w przycisk "PRZELICZ"
+    </p>
+
+</body>
+
+</html>
